@@ -33,8 +33,5 @@ void BlindFunction()
 }
 
 
-
-
 new Thread(ObliviousFunction).Start();
 new Thread(BlindFunction).Start();
-
